@@ -1,6 +1,6 @@
-# react-native-ico-coolicons
+# Coolicons Icons for React Native
 
-### Coolicons Icons for React Native
+### react-native-ico-coolicons
 
 400 Icons
 
@@ -13,15 +13,19 @@ import Icon from 'react-native-ico-coolicons';
 // Inside some view component
 render() {
     return (
-        <Fragment>
+        <>
           <Icon name="accept" />
           <Icon name="back" height="40" width="40" />
           <Icon name="dollar-bill" color="green" />
-        </Fragment>
+        </>
     );
 }
 
 ```
+
+## List of icons
+
+- [List of Coolicons Icons](static/coolicons.md)
 
 ## Installation
 
@@ -63,13 +67,9 @@ width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
 ...rest | no | | other props | style={{backgroundColor: "#00f"}}
 
-## List of icons
-
-- [List of Coolicons Icons](static/coolicons.md)
-
 ## Icons Made by
 
-[Dave Gandy](https://www.flaticon.com/authors/dave-gandy)
+[Freepik](https://www.flaticon.com/authors/freepik)
 
 ## Created by
 
