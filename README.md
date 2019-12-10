@@ -2,7 +2,7 @@
 
 ### Coolicons Icons for React Native
 
-369 Icons
+400 Icons
 
 ## Usage
 
@@ -14,9 +14,9 @@ import Icon from 'react-native-ico-coolicons';
 render() {
     return (
         <Fragment>
-          <Icon name="home" />
-          <Icon name="file" height="40" width="40" />
-          <Icon name="smile" color="red" />
+          <Icon name="accept" />
+          <Icon name="back" height="40" width="40" />
+          <Icon name="dollar-bill" color="green" />
         </Fragment>
     );
 }
