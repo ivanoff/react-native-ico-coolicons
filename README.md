@@ -25,7 +25,7 @@ render() {
 
 ## List of icons
 
-- [List of Coolicons Icons](static/coolicons.md)
+- [List of Coolicons Icons](http://ico.simpleness.org/pack/coolicons)
 
 ## Installation
 
