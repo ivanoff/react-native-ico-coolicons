@@ -1,8 +1,8 @@
-# Coolicons Icons for React Native
+# coolicons Icons for React Native
 
 ### react-native-ico-coolicons
 
-400 Icons
+369 Icons
 
 ## Usage
 
@@ -14,9 +14,9 @@ import Icon from 'react-native-ico-coolicons';
 render() {
     return (
         <>
-          <Icon name="accept" />
-          <Icon name="back" height="40" width="40" />
-          <Icon name="dollar-bill" color="green" />
+          <Icon name="home" />
+          <Icon name="file" height="40" width="40" />
+          <Icon name="smile" color="red" />
         </>
     );
 }
@@ -25,7 +25,7 @@ render() {
 
 ## List of icons
 
-- [List of Coolicons Icons](http://ico.simpleness.org/pack/coolicons)
+- [List of coolicons Icons](http://ico.simpleness.org/pack/coolicons)
 
 ## Installation
 
@@ -69,7 +69,7 @@ height | yes | 20 | height of the icon | 40
 
 ## Icons Made by
 
-[Freepik](https://www.flaticon.com/authors/freepik)
+[Dave Gandy](https://www.flaticon.com/authors/dave-gandy)
 
 ## Created by
 
