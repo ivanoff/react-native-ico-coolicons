@@ -1,8 +1,8 @@
-# coolicons Icons for React Native
+# Coolicons Icons for React Native
 
 ### react-native-ico-coolicons
 
-369 Icons
+400 Icons
 
 ## Usage
 
@@ -25,7 +25,7 @@ render() {
 
 ## List of icons
 
-- [List of coolicons Icons](http://ico.simpleness.org/pack/coolicons)
+- [List of Coolicons Icons](http://ico.simpleness.org/pack/coolicons)
 
 ## Installation
 
