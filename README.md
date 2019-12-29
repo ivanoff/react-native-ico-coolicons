@@ -2,7 +2,13 @@
 
 ### react-native-ico-coolicons
 
-400 Icons
+369 Vector Icons for React Native
+
+<img src="./static/airplane-black-shape.png" alt="airplane-black-shape" width="150" height="150"> <img src="./static/alphabetical-order-from-a-to-z.png" alt="alphabetical-order-from-a-to-z" width="150" height="150"> <img src="./static/ambulance.png" alt="ambulance" width="150" height="150">
+
+## List of icons
+
+- [List of Coolicons Icons](http://ico.simpleness.org/pack/coolicons)
 
 ## Usage
 
@@ -22,10 +28,6 @@ render() {
 }
 
 ```
-
-## List of icons
-
-- [List of Coolicons Icons](http://ico.simpleness.org/pack/coolicons)
 
 ## Installation
 
@@ -61,7 +63,7 @@ Returns a SvgXml icon by name and group.
 
  name | optional | default value | description | examples
 ------|----------|---------------|-------------|---------
-name | no |  | name of file | "airplane-black-shape"
+name | no |  | name of icon | "airplane-black-shape"
 color | yes | | line color, css style | "#00ff00", "#0f0", "green"
 width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
