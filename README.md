@@ -4,7 +4,7 @@
 
 400 Vector Icons for React Native
 
-<img src="./static/airplane-black-shape.png" alt="airplane-black-shape" width="150" height="150"> <img src="./static/alphabetical-order-from-a-to-z.png" alt="alphabetical-order-from-a-to-z" width="150" height="150"> <img src="./static/ambulance.png" alt="ambulance" width="150" height="150">
+<img src="./static/connection-interface-symbol-of-three-circles-with-lines-unions.png" alt="connection-interface-symbol-of-three-circles-with-lines-unions" width="150" height="150"> <img src="./static/folder-gross-symbol-for-interface.png" alt="folder-gross-symbol-for-interface" width="150" height="150"> <img src="./static/minus-sign-in-a-square-1.png" alt="minus-sign-in-a-square-1" width="150" height="150">
 
 ## List of icons
 
@@ -20,14 +20,14 @@ import Icon from 'react-native-ico-coolicons';
 render() {
     return (
         <>
-          <Icon name="airplane-black-shape" />
-          <Icon name="alphabetical-order-from-a-to-z" height="40" width="40" />
-          <Icon name="ambulance" color="red" />
-          <Icon name="ambulance" colors={{ "#000000": "#FFFFFF" }} />
-          <Icon name="alphabetical-order-from-a-to-z" badge="10" />
-          <Icon name="alphabetical-order-from-a-to-z" badge={{value: 'A', fontSize: 25, radius: 22, position:'top_left', color:'orange', backgroundColor:'blue'}}/>
-          <Icon name="airplane-black-shape" background="circle" />
-          <Icon name="airplane-black-shape" background={{ type: "button", color: 'green' }} />
+          <Icon name="connection-interface-symbol-of-three-circles-with-lines-unions" />
+          <Icon name="folder-gross-symbol-for-interface" height="40" width="40" />
+          <Icon name="minus-sign-in-a-square-1" color="red" />
+          <Icon name="minus-sign-in-a-square-1" colors={{ "#000000": "#FFFFFF" }} />
+          <Icon name="folder-gross-symbol-for-interface" badge="10" />
+          <Icon name="folder-gross-symbol-for-interface" badge={{value: 'A', fontSize: 25, radius: 22, position:'top_left', color:'orange', backgroundColor:'blue'}}/>
+          <Icon name="connection-interface-symbol-of-three-circles-with-lines-unions" background="circle" />
+          <Icon name="connection-interface-symbol-of-three-circles-with-lines-unions" background={{ type: "button", color: 'green' }} />
         </>
     );
 }
@@ -54,7 +54,9 @@ npm install --save react-native-ico-coolicons react-native-svg
 react-native link react-native-svg
 ```
 
-### pod install ( for iOS )
+`react-native-svg` is a peer dependency. Install a current version in the app so the package uses the app-level native module instead of pulling in an older nested copy.
+
+### pod install (for iOS)
 
 ```
 cd ios && pod install && cd ..
@@ -68,9 +70,9 @@ Returns a SvgXml icon by name and group.
 
  name | optional | default value | description | examples
 ------|----------|---------------|-------------|---------
-name | no |  | name of icon | "airplane-black-shape"
+name | no |  | name of icon | "connection-interface-symbol-of-three-circles-with-lines-unions"
 color | yes | | line color, css style | "#00ff00", "#0f0", "green"
-colors | yes | | replace colors | {"#FFFFFF": "#000000"} // white to black
+colors | yes | | replace colors | {"#FFFFFF": "#000000", "#f00": "#00f"} // white to black, red to blue
 width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
 background | yes | | background type | "circle"
